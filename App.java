@@ -22,34 +22,49 @@ public class App {
 //			System.out.print(h1.data);
 //			mov=mov.nextNode;
 //		}
-		
+		 
 		
 		LinkedList<Integer> p= new LinkedList<>();
         p.add(1);
         p.add(3);
         p.add(45);
         p.add(4);
-
+/*
         for(int i=0;i<p.size();i++)
         {
             System.out.println(p.get(i));
         }
+        */
 		
 	}
+    class LinkedList<T>{
+        Node<T> head;
+        public void addFirst(T data){
+
+        }
+
+        public void add(T data){
+            
+        }
+    }
 	
-	class Node{
-		int data;
+	class Node<T>{
+		T data;
 		Node nextNode;
+        Node preNode;
 		
 		
-		public Node(int data) {
+		public Node(T data) {
 			this.data=data;
 			this.nextNode=null;
+            this.preNode=null;
+
 		}
 		
-		public Node(int data, Node nextNode) {
+		public Node(T data, Node nextNode) {
 			this.data=data;
 			this.nextNode=nextNode;
+
 		}
 	}
 
