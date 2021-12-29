@@ -63,6 +63,9 @@ public class LinkedList1{
         Node currNode= list.head;
         System.out.print("Linkedlist  :");
 
+
+        //Traverse throught the linkedList
+
         while(currNode != null)
         {
 
@@ -74,5 +77,6 @@ public class LinkedList1{
             currNode =currNode.next;
         }
     }
+    
     
 }
