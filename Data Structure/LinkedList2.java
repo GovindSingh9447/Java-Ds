@@ -71,7 +71,8 @@ public class LinkedList2{
 
             list.head=currNode.next;
 
-            
+            //Display the msg 
+            System.out.println(key +"Found and deleted");
         }
 
 
