@@ -99,6 +99,7 @@ public class LinkedList2{
 
                 System.out.println(key +"Found and deleted");
 
+                return list;
             }
             
             
