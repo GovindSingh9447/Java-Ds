@@ -45,7 +45,8 @@ public class LinkedList2{
         System.out.println("LinkedList : ");
 
         while(curr_data != null){
-            
+
+            System.out.println(curr_data.data);
         }
     }
 }
