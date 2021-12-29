@@ -57,6 +57,9 @@ public class LinkedList2{
 
         LinkedList2 list=new LinkedList2();
 
-        
+        list=insert(list, 15);
+        list=insert(list, 45);
+        list=insert(list, 28);
+        list=insert(list, 90);
     }
 }
