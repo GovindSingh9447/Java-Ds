@@ -30,7 +30,8 @@ public class LinkedList2{
             while(last.next !=null){
                 last=last.next;
             }
-            
+
+            last.next=new_node;
           }
 
         return list;
