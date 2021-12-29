@@ -51,6 +51,8 @@ public class LinkedList2{
             curr_data=curr_data.next;
         }
 
+        System.out.println(" ");
+
     }
 
     public static void main(String args[]){
