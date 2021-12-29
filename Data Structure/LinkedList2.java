@@ -56,10 +56,17 @@ public class LinkedList2{
     }
 
                                            // DELETION
-            public static LinkedList2 deleteBYKey(LinkedList2 list, int key){
-                return list;
+    public static LinkedList2 deleteBYKey(LinkedList2 list, int key){
+
+        //Store head node
+        Node currNode=list.head, pre=null;
+
+
+        return list;
                 
-            }                               
+
+                
+    }                                       
 
 
 
