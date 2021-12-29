@@ -136,6 +136,8 @@ public class LinkedList2{
         printlist(list);
 
         deleteBYKey(list, 15);
-        
+
+        printlist(list);
+
     }
 }
