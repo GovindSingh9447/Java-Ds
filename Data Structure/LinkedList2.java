@@ -62,6 +62,19 @@ public class LinkedList2{
         Node currNode=list.head, pre=null;
 
 
+        //CASE 1
+        //If head node itself hold key to deleted
+
+        if(currNode != null && currNode.data == key){
+
+            //change head
+
+            list.head=currNode.next;
+
+            
+        }
+
+
         return list;
                 
 
