@@ -21,6 +21,13 @@ public class LinkedList2{
           Node new_node=new Node(data);
           new_node.next=null;
 
+          if(list.head==null){
+              list.head=new_node;
+          }
+          else{
+              
+          }
+
         return list;
         
     }
