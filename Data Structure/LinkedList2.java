@@ -92,18 +92,16 @@ public class LinkedList2{
             pre=currNode;
             currNode=currNode.next;
 
-
-            if(currNode != null){
-
-                pre.next=currNode.next;
-
-                System.out.println(key +" Found and deleted");
-
             
-            }
+        }
 
-           
-            
+        if(currNode != null){
+
+            pre.next=currNode.next;
+
+            System.out.println(key +" Found and deleted");
+
+        
         }
 
 
