@@ -93,6 +93,9 @@ public class LinkedList2{
             currNode=currNode.next;
 
 
+            if(currNode != null){
+                
+            }
             
             
         }
