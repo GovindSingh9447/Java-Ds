@@ -54,6 +54,9 @@ public class LinkedList2{
     }
 
     public static void main(String args[]){
+
+        LinkedList2 list=new LinkedList2();
+
         
     }
 }
