@@ -74,10 +74,18 @@ public class LinkedList2{
             //Display the msg 
             System.out.println(key +"Found and deleted");
         }
-
-
         return list;
-                
+         
+        
+        //CASE 2
+        //If the key is somewhere other then head
+
+
+        //search for the key to delete
+        //keep trak of previous node
+        // need to change currentNode.next
+
+        
 
                 
     }                                       
