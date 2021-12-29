@@ -97,7 +97,8 @@ public class LinkedList2{
 
                 pre.next=currNode.next;
 
-                
+                System.out.println(key +"Found and deleted");
+
             }
             
             
