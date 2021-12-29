@@ -47,9 +47,13 @@ public class LinkedList2{
         while(curr_data != null){
 
             System.out.println(curr_data.data);
-            
+
             curr_data=curr_data.next;
         }
 
+    }
+
+    public static void main(String args[]){
+        
     }
 }
