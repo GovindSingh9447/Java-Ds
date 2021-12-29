@@ -26,6 +26,7 @@ public class LinkedList2{
           }
           else{
               
+            Node last=list.head;
           }
 
         return list;
