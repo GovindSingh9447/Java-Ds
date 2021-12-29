@@ -52,7 +52,7 @@ public class LinkedList1{
             last.next=new_node;
         }
 
-
+        // return the list by head
         return list;
 
     }
