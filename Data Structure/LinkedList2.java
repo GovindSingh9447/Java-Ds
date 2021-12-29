@@ -41,6 +41,8 @@ public class LinkedList2{
     public static void printlist(LinkedList2 list){
         
         Node curr_data= list.head;
+
+        System.out.println("LinkedList : ");
         
     }
 }
