@@ -72,7 +72,7 @@ public class LinkedList2{
             list.head=currNode.next;
 
             //Display the msg 
-            System.out.println(key +"Found and deleted");
+            System.out.println(key +" Found and deleted");
 
             return list;
         }
@@ -86,7 +86,7 @@ public class LinkedList2{
         //keep trak of previous node
         // need to change currentNode.next
 
-        if(currNode !=null && currNode.data != key){
+        while (currNode !=null && currNode.data != key){
 
             //if current node dont contain key move to next
             pre=currNode;
@@ -97,18 +97,29 @@ public class LinkedList2{
 
                 pre.next=currNode.next;
 
-                System.out.println(key +"Found and deleted");
+                System.out.println(key +" Found and deleted");
 
             
             }
 
-            if(currNode == null){
-
-                System.out.println(key +"Not Found");
-            }
-            
+           
             
         }
+
+
+        //CASE 2
+        //If the key is somewhere other then head
+
+
+        //search for the key to delete
+        //keep trak of previous node
+        // need to change currentNode.next
+
+        if(currNode == null){
+
+            System.out.println(key +" Not Found");
+        }
+        
 
 
         return list;
@@ -142,6 +153,9 @@ public class LinkedList2{
         printlist(list);
 
         deleteBYKey(list, 17);
+        printlist(list);
+
+        deleteBYKey(list, 32);
         printlist(list);
 
     }
