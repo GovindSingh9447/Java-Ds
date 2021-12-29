@@ -78,9 +78,6 @@ public class LinkedList2{
         }
 
 
-
-
-
         //CASE 2
         //If the key is somewhere other then head
 
@@ -90,6 +87,13 @@ public class LinkedList2{
         // need to change currentNode.next
 
         if(currNode !=null && currNode.data != key){
+
+            //if current node dont contain key move to next
+            pre=currNode;
+            currNode=currNode.next;
+
+
+            
             
         }
 
