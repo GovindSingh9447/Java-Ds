@@ -27,6 +27,10 @@ public class LinkedList2{
           else{
               
             Node last=list.head;
+            while(last.next !=null){
+                last=last.next;
+            }
+            
           }
 
         return list;
