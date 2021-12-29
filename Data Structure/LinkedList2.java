@@ -62,6 +62,6 @@ public class LinkedList2{
         list=insert(list, 28);
         list=insert(list, 90);
         list=insert(list, 55);
-        list=insert(list, data)
+        list=insert(list, 11);
     }
 }
