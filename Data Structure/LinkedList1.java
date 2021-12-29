@@ -61,6 +61,18 @@ public class LinkedList1{
     public static void printList(LinkedList1 list)
     {
         Node currNode= list.head;
+        System.out.print("Linkedlist  :");
+
+        while(currNode != null)
+        {
+
+            //print the data at current node
+            System.out.print(currNode.data + " ");
+
+            // go to next node
+
+            currNode =currNode.next;
+        }
     }
     
 }
