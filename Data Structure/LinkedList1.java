@@ -56,5 +56,11 @@ public class LinkedList1{
         return list;
 
     }
+
+    //method to print linklist
+    public static void printList(LinkedList1 list)
+    {
+        Node currNode= list.head;
+    }
     
 }
