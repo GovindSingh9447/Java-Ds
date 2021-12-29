@@ -107,14 +107,11 @@ public class LinkedList2{
         }
 
 
-        //CASE 2
-        //If the key is somewhere other then head
+        //CASE 3
+        //The key is not present
 
 
-        //search for the key to delete
-        //keep trak of previous node
-        // need to change currentNode.next
-
+        
         if(currNode == null){
 
             System.out.println(key +" Not Found");
