@@ -139,7 +139,10 @@ public class LinkedList2{
 
         printlist(list);
         deleteBYKey(list, 90);
-        
+        printlist(list);
+
+        deleteBYKey(list, 17);
+        printlist(list);
 
     }
 }
