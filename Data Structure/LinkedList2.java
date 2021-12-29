@@ -37,4 +37,8 @@ public class LinkedList2{
         return list;
         
     }
+
+    public static void printlist(LinkedList2 list){
+        
+    }
 }
