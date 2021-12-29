@@ -55,6 +55,15 @@ public class LinkedList2{
 
     }
 
+                                           // DELETION
+            public static LinkedList2 deleteBYKey(LinkedList2 list, int key){
+                return list;
+                
+            }                               
+
+
+
+
     public static void main(String args[]){
 
         LinkedList2 list=new LinkedList2();
