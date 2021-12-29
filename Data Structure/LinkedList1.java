@@ -61,7 +61,7 @@ public class LinkedList1{
     public static void printList(LinkedList1 list)
     {
         Node currNode= list.head;
-        System.out.print("Linkedlist  :");
+        System.out.print("Linkedlist : ");
 
 
         //Traverse throught the linkedList
@@ -70,7 +70,7 @@ public class LinkedList1{
         {
 
             //print the data at current node
-            System.out.print(currNode.data + " ");
+            System.out.println(currNode.data + " ");
 
             // go to next node
 
