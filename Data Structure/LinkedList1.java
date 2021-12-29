@@ -34,9 +34,22 @@ public class LinkedList1{
         if(list.head==null){
             list.head=new_node;
         }
+
+        //else traverse till last node
+        //and insert new node there
         else
         {
-            
+            Node last =list.head;
+
+            while(last.next!=null){
+
+                last = last.next;
+
+            }
+
+            //Insert new node at last
+
+            last.next=new_node;
         }
 
 
