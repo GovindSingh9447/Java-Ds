@@ -103,7 +103,8 @@ public class LinkedList2{
             }
 
             if(currNode == null){
-                
+
+                System.out.println(key +"Not Found");
             }
             
             
