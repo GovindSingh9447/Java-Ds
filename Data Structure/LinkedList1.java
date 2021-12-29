@@ -77,6 +77,27 @@ public class LinkedList1{
             currNode =currNode.next;
         }
     }
-    
+
+    //driver code
+    public static void main(String args[]){
+
+        //start with empty list
+
+        LinkedList1 list= new LinkedList1();
+
+        //Insert the values
+
+        list=insert(list, 1);
+        list=insert(list, 2);
+        list=insert(list, 3);
+        list=insert(list, 4);
+        list=insert(list, 5);
+
+
+        //print the linkedlist
+        printList(list);
+
+
+    }
     
 }
