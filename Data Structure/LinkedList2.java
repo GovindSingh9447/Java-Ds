@@ -138,6 +138,8 @@ public class LinkedList2{
         deleteBYKey(list, 15);
 
         printlist(list);
+        deleteBYKey(list, 90);
+        
 
     }
 }
