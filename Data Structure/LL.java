@@ -74,7 +74,7 @@ public class LL {
 
         LL list =new LL();
         list.addFirst(10);
-
+        list.printList();
         list.addLast(20);
         list.addFirst(12);;
 
