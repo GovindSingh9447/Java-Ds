@@ -24,6 +24,10 @@ class Stack {
         return false;
 
        } 
+       else{
+           a[++top]=x;
+           
+       }
     }
     
 }
