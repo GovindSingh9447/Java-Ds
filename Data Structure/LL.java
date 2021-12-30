@@ -17,7 +17,10 @@ public class LL {
 
     // FIRST POSITION
     public void addFirst(int data){
+
+        Node newNode=new Node(data);
         
+
     }
     
     public static void main(String args[]){
