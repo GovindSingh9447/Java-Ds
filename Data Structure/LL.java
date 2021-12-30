@@ -19,7 +19,11 @@ public class LL {
     public void addFirst(int data){
 
         Node newNode=new Node(data);
-        
+
+
+        if(head==null){
+            
+        }
 
     }
     
