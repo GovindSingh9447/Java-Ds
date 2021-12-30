@@ -59,7 +59,8 @@ public class LL {
 
     public void printList(){
         if(head==null){
-            
+
+            System.out.println("List is Empty");
         }
     }
     
