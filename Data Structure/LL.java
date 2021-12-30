@@ -66,6 +66,8 @@ public class LL {
         while(currNode!= null){
             System.out.println(currNode.data +" ");
         }
+
+        System.out.println(" ");
     }
     
     public static void main(String args[]){
