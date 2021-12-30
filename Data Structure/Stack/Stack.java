@@ -32,5 +32,12 @@ class Stack {
            return true;
        }
     }
+
+    int pop()
+    {
+        if(top<0){
+            
+        }
+    }
     
 }
