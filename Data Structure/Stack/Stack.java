@@ -58,5 +58,8 @@ class Stack {
             return x;
         }
     }
+    void print(){
+        
+    }
     
 }
