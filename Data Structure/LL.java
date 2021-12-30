@@ -35,6 +35,7 @@ public class LL {
     //LAST POSITION
     public void addLast(int data){
 
+        Node newNode =new Node(data);
         
     }
     
