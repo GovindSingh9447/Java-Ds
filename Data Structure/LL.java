@@ -12,11 +12,18 @@ public class LL {
         }
 
     }
+
+    //ADD NODE 
+
+    // FIRST POSITION
+    public void addFirst(int data){
+        
+    }
     
     public static void main(String args[]){
 
         LL list =new LL();
 
-        
+
     }
 }
