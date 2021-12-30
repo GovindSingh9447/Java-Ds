@@ -1,4 +1,4 @@
-import java.util.function.ObjDoubleConsumer;
+
 
 public class LL {
 
@@ -52,7 +52,8 @@ public class LL {
             currNode=currNode.next;
 
         }
-        currNode.next=newNode;
+
+        
     }
 
     //PrintList
