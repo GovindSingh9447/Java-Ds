@@ -1,3 +1,5 @@
+import java.util.function.ObjDoubleConsumer;
+
 public class LL {
 
     Node head;
@@ -51,6 +53,14 @@ public class LL {
 
         }
         currNode.next=newNode;
+    }
+
+    //PrintList
+
+    public void printList(){
+        if(head==null){
+            
+        }
     }
     
     public static void main(String args[]){
