@@ -1,85 +1,29 @@
+class LL{
 
-
-public class LL {
 
     Node head;
-    public Node currNode;
-
     class Node{
         int data;
         Node next;
 
-        Node(int d){
-            this.data=d;
+        Node(int data){
+            this.data=data;
             this.next=null;
         }
-
     }
 
-    //ADD NODE 
-
-    // FIRST POSITION
-    public void addFirst(int data){
+    public void addFNode(int date){
 
         Node newNode=new Node(data);
-
-
         if(head==null){
-
             head=newNode;
             return;
-        }
-        newNode.next=head;
-        head=newNode;
 
+        }
     }
 
-
-    //LAST POSITION
-    public void addLast(int data){
-
-        Node newNode =new Node(data);
-
-        if(head==null)
-        {
-          head=newNode;
-          return;  
-        }
-
-        Node currNode = head;
-
-        while(currNode.next!=null){
-
-            currNode=currNode.next;
-
-        }
-        
-        currNode.next=newNode;
-    }
-
-    //PrintList
-
-    public void printList(){
-        if(head==null){
-
-            System.out.println("List is Empty");
-        }
-        Node currNode=head;
-        while(currNode!= null){
-            System.out.println(currNode.data +" ");
-        }
-
-        System.out.println(" ");
-    }
-    
     public static void main(String args[]){
-
-        LL list =new LL();
-        list.addFirst(10);
         
-        list.addLast(20);
-        list.addFirst(12);;
-
-
+        LL list=new LL();
     }
 }
