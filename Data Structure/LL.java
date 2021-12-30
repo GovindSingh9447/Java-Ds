@@ -42,6 +42,12 @@ public class LL {
           head=newNode;
           return;  
         }
+
+        Node currNode=head;
+
+        while(currNode!=null){
+            
+        }
     }
     
     public static void main(String args[]){
