@@ -15,5 +15,9 @@ class Stack {
     {
         top=-1;
     }
+
+    boolean push(int x){
+        
+    }
     
 }
