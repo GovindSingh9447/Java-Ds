@@ -42,6 +42,15 @@ class Stack {
         }
         else{
             int x=a[top--];
+            return x;
+        }
+    }
+
+    int peek()
+    {
+        if(top<0)
+        {
+            System.out.println("Stack Underflow");
         }
     }
     
