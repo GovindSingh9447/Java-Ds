@@ -8,7 +8,12 @@ class Stack {
 
     boolean isEmpty()
     {
-        
+        return(top<0);
+    }
+
+    Stack()
+    {
+        top=-1;
     }
     
 }
