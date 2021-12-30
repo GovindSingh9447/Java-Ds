@@ -64,7 +64,7 @@ public class LL {
         }
         Node currNode=head;
         while(currNode!= null){
-            
+            System.out.println(currNode.data +" ");
         }
     }
     
