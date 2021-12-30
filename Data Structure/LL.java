@@ -3,6 +3,7 @@
 public class LL {
 
     Node head;
+    public Node currNode;
 
     class Node{
         int data;
@@ -45,15 +46,15 @@ public class LL {
           return;  
         }
 
-        Node currNode=head;
+        Node currNode = head;
 
-        while(currNode!=null){
+        while(currNode.next!=null){
 
             currNode=currNode.next;
 
         }
-
         
+        currNode.next=newNode;
     }
 
     //PrintList
@@ -75,7 +76,7 @@ public class LL {
 
         LL list =new LL();
         list.addFirst(10);
-        list.printList();
+        
         list.addLast(20);
         list.addFirst(12);;
 
