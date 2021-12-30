@@ -54,7 +54,7 @@ class Stack {
             return 0;
         }
         else{
-            
+            int x=a[top];
         }
     }
     
