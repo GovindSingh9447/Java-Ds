@@ -63,7 +63,9 @@ public class LL {
             System.out.println("List is Empty");
         }
         Node currNode=head;
-        
+        while(currNode!= null){
+            
+        }
     }
     
     public static void main(String args[]){
