@@ -39,7 +39,8 @@ public class LL {
 
         if(head==null)
         {
-            
+          head=newNode;
+          return;  
         }
     }
     
