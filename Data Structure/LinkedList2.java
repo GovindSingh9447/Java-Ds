@@ -1,162 +1,162 @@
-//deletion
+// //deletion
 
-public class LinkedList2{
+// public class LinkedList2{
 
-    Node head;
+//     Node head;
 
-    public static class Node{
+//     public static class Node{
 
-        int data;
-        Node next;
+//         int data;
+//         Node next;
 
-        Node(int d){
-            data=d;
-            next=null;
+//         Node(int d){
+//             data=d;
+//             next=null;
 
-        }
-    }
+//         }
+//     }
 
-    public static LinkedList2 insert(LinkedList2 list , int data){
+//     public static LinkedList2 insert(LinkedList2 list , int data){
 
-          Node new_node=new Node(data);
-          new_node.next=null;
+//           Node new_node=new Node(data);
+//           new_node.next=null;
 
-          if(list.head==null){
-              list.head=new_node;
-          }
-          else{
+//           if(list.head==null){
+//               list.head=new_node;
+//           }
+//           else{
               
-            Node last=list.head;
-            while(last.next !=null){
-                last=last.next;
-            }
+//             Node last=list.head;
+//             while(last.next !=null){
+//                 last=last.next;
+//             }
 
-            last.next=new_node;
-          }
+//             last.next=new_node;
+//           }
 
-        return list;
+//         return list;
         
-    }
+//     }
 
-    public static void printlist(LinkedList2 list){
+//     public static void printlist(LinkedList2 list){
         
-        Node curr_data= list.head;
+//         Node curr_data= list.head;
 
-        System.out.println("LinkedList : ");
+//         System.out.println("LinkedList : ");
 
-        while(curr_data != null){
+//         while(curr_data != null){
 
-            System.out.print(curr_data.data +" ");
+//             System.out.print(curr_data.data +" ");
 
-            curr_data=curr_data.next;
-        }
+//             curr_data=curr_data.next;
+//         }
 
-        System.out.println(" ");
+//         System.out.println(" ");
 
-    }
+//     }
 
-                                           // DELETION
+//                                            // DELETION
 
-    public static LinkedList2 deleteBYKey(LinkedList2 list, int key){
+//     public static LinkedList2 deleteBYKey(LinkedList2 list, int key){
 
-        //Store head node
-        Node currNode=list.head, pre=null;
-
-
-        //CASE 1
-        //If head node itself hold key to deleted
-
-        if(currNode != null && currNode.data == key){
-
-            //change head
-
-            list.head=currNode.next;
-
-            //Display the msg 
-            System.out.println(key +" Found and deleted");
-
-            return list;
-        }
+//         //Store head node
+//         Node currNode=list.head, pre=null;
 
 
-        //CASE 2
-        //If the key is somewhere other then head
+//         //CASE 1
+//         //If head node itself hold key to deleted
+
+//         if(currNode != null && currNode.data == key){
+
+//             //change head
+
+//             list.head=currNode.next;
+
+//             //Display the msg 
+//             System.out.println(key +" Found and deleted");
+
+//             return list;
+//         }
 
 
-        //search for the key to delete
-        //keep trak of previous node
-        // need to change currentNode.next
+//         //CASE 2
+//         //If the key is somewhere other then head
 
-        while (currNode !=null && currNode.data != key){
 
-            //if current node dont contain key move to next
-            pre=currNode;
-            currNode=currNode.next;
+//         //search for the key to delete
+//         //keep trak of previous node
+//         // need to change currentNode.next
+
+//         while (currNode !=null && currNode.data != key){
+
+//             //if current node dont contain key move to next
+//             pre=currNode;
+//             currNode=currNode.next;
 
             
-        }
+//         }
 
-        if(currNode != null){
+//         if(currNode != null){
 
-            pre.next=currNode.next;
+//             pre.next=currNode.next;
 
-            System.out.println(key +" Found and deleted");
-
-        
-        }
-
-
-        //CASE 3
-        //The key is not present
-
+//             System.out.println(key +" Found and deleted");
 
         
-        if(currNode == null){
+//         }
 
-            System.out.println(key +" Not Found");
-        }
+
+//         //CASE 3
+//         //The key is not present
+
+
+        
+//         if(currNode == null){
+
+//             System.out.println(key +" Not Found");
+//         }
         
 
 
-        return list;
+//         return list;
          
         
         
                 
-    }                                       
+//     }                                       
 
 
 
 
-    public static void main(String args[]){
+//     public static void main(String args[]){
 
-        LinkedList2 list=new LinkedList2();
+//         LinkedList2 list=new LinkedList2();
 
       
 
-        //int list=scan.nextInt();
+//         //int list=scan.nextInt();
 
-        list=insert(list, 15);
-        list=insert(list, 45);
-        list=insert(list, 28);
-        list=insert(list, 90);
-        list=insert(list, 55);
-        list=insert(list, 11);
-        list=insert(list, 17);
+//         list=insert(list, 15);
+//         list=insert(list, 45);
+//         list=insert(list, 28);
+//         list=insert(list, 90);
+//         list=insert(list, 55);
+//         list=insert(list, 11);
+//         list=insert(list, 17);
 
-        printlist(list);
+//         printlist(list);
 
-        deleteBYKey(list, 15);
+//         deleteBYKey(list, 15);
 
-        printlist(list);
-        deleteBYKey(list, 90);
-        printlist(list);
+//         printlist(list);
+//         deleteBYKey(list, 90);
+//         printlist(list);
 
-        deleteBYKey(list, 17);
-        printlist(list);
+//         deleteBYKey(list, 17);
+//         printlist(list);
 
-        deleteBYKey(list, 32);
-        printlist(list);
+//         deleteBYKey(list, 32);
+//         printlist(list);
 
-    }
-}
+//     }
+// }
