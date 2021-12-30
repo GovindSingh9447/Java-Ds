@@ -56,6 +56,10 @@ public class LL {
     public static void main(String args[]){
 
         LL list =new LL();
+        list.addFirst(10);
+
+        list.addLast(20);
+        list.addFirst(12);;
 
 
     }
