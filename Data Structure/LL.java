@@ -30,6 +30,13 @@ public class LL {
         head=newNode;
 
     }
+
+
+    //LAST POSITION
+    public void addLast(int data){
+
+        
+    }
     
     public static void main(String args[]){
 
