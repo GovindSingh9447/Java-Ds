@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //deletion
 
 public class LinkedList2{
@@ -56,6 +58,7 @@ public class LinkedList2{
     }
 
                                            // DELETION
+                                           
     public static LinkedList2 deleteBYKey(LinkedList2 list, int key){
 
         //Store head node
@@ -130,6 +133,12 @@ public class LinkedList2{
     public static void main(String args[]){
 
         LinkedList2 list=new LinkedList2();
+
+        Scanner scan = new Scanner(System.in);
+
+        int data=scan.nextInt();
+
+        //int list=scan.nextInt();
 
         list=insert(list, 15);
         list=insert(list, 45);
