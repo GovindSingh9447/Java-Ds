@@ -17,6 +17,8 @@ class Stack {
     }
 
     boolean push(int x){
+
+
        if(top>=(MAX-1)){
 
 
@@ -27,6 +29,7 @@ class Stack {
        else{
            a[++top]=x;
            System.out.println(x +"push into stack");
+           return true;
        }
     }
     
