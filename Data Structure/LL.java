@@ -27,6 +27,7 @@ public class LL {
             return;
         }
         newNode.next=head;
+        head=newNode;
 
     }
     
