@@ -78,6 +78,31 @@ class Stack {
         System.out.println("Elements presenrt in :");
         s.print();
 
+        s.push(77);
+        s.print();
+
+        System.out.println(s.pop() +" poped");
+        System.out.println("Top element is "+ s.peek());
+
+        System.out.println("Elements presenrt in :");
+        s.print();
+
+        s.push(96);
+
+        s.print();
+
+        System.out.println(s.pop() +" poped");
+        s.print();
+
+        s.push(10);
+        s.push(11);
+        s.push(13);
+
+        System.out.println(s.pop() +" poped");
+        System.out.println("Top element is "+ s.peek());
+
+        System.out.println("Elements presenrt in :");
+        s.print();
 
         
     }
