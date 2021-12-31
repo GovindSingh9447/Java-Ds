@@ -79,6 +79,8 @@ class Main{
         System.out.println(s.pop() +" poped");
         System.out.println("Top element is "+ s.peek());
 
+        System.out.println("Elements presenrt in :");
+
 
         
     }
