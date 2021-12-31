@@ -59,7 +59,11 @@ class Stack {
         }
     }
     void print(){
-        
+
+        for(int i=top; i>-1;i--){
+            System.out.println(" "+a[i]);
+        }
+
     }
     
 }
