@@ -65,11 +65,7 @@ class Stack {
         }
 
     }
-
-}
-class Main{
-
-    public void main (String args[])
+    public static void main (String args[])
     {
         Stack s= new Stack();
         s.push(100);
@@ -86,3 +82,4 @@ class Main{
         
     }
 }
+
