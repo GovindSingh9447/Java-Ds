@@ -76,6 +76,8 @@ class Main{
         s.push(12);
         s.push(180);
 
+        System.out.println(s.pop() +" poped");
+
         
     }
 }
