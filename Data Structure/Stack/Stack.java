@@ -65,5 +65,8 @@ class Stack {
         }
 
     }
+
+}
+class Main{
     
 }
