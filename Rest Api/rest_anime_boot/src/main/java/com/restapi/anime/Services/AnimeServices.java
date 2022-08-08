@@ -17,5 +17,11 @@ public class AnimeServices {
     public List<Anime> getAllAnimes(){
         return list;
     }
+    //get single anime by id
+    public Anime getAnimeById(int id){
+        Anime anime=null;
+        list.stream().filter(e->e.getId()==id).findFirst().get();
+        return anime;
+    }
     
 }
